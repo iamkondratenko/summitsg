@@ -1,0 +1,53 @@
+[builderList mainBanner]
+modelClass = "Iamk\Banner\Models\Banner"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "id"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+{% set records = mainBanner.records %}
+{% set displayColumn = mainBanner.displayColumn %}
+{% set noRecordsMessage = mainBanner.noRecordsMessage %}
+{% set detailsPage = mainBanner.detailsPage %}
+{% set detailsKeyColumn = mainBanner.detailsKeyColumn %}
+{% set detailsUrlParameter = mainBanner.detailsUrlParameter %}
+
+<div class="main-banner">
+    <div class="slides">
+    {% for record in records %}
+            {% spaceless %} 
+                <div class="slide" style="background: url( {{ record.picture|media }} ) ;">
+
+                    <h1 class="main-banner-item__title">{{ record.title }}</h1>
+                        <p class="main-banner-item__description">
+                            {{ record.description }}
+                        </p>
+                            <a href="{{ record.button_url }}" class="btn-lrg secondary-button --unselectable">{{ record.button_text }}</a>
+                </div>
+            {% endspaceless %}
+    {% else %}
+        <li class="no-data">{{ noRecordsMessage }}</li>
+    {% endfor %}
+</div>
+
+<div class="nav">
+            <div class="btn-group">
+{% for record in records %}
+            {% spaceless %} 
+                {% if loop.first %}
+                    <div class="btn active"></div>
+                {% else %}
+                    <div class="btn"></div>
+                {% endif %}
+            {% endspaceless %}
+    {% else %}
+        <li class="no-data">{{ noRecordsMessage }}</li>
+    {% endfor %}
+</div></div>
+
+</div>
+
+

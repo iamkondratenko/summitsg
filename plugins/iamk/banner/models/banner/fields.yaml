@@ -1,0 +1,23 @@
+fields:
+    title:
+        label: Заголовок
+        span: left
+        type: text
+    picture:
+        label: Картинка
+        mode: file
+        span: auto
+        type: mediafinder
+    description:
+        label: Описание
+        span: left
+        type: text
+    button_text:
+        label: 'Надпись на кнопке'
+        span: left
+        default: '''Подробнее'''
+        type: text
+    button_url:
+        label: Ссылка
+        span: left
+        type: text

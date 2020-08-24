@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table iamk_banner_slider'
+    - builder_table_create_iamk_banner_slider.php
+1.0.3:
+    - 'Updated table iamk_banner_slider'
+    - builder_table_update_iamk_banner_slider.php

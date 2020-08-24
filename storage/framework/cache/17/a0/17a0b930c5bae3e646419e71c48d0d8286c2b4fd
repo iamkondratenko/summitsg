@@ -1,0 +1,94 @@
+1598299250a:1:{s:16:"/site/banner.htm";a:6:{s:8:"fileName";s:16:"/site/banner.htm";s:7:"content";s:1769:"[builderList mainBanner]
+modelClass = "Iamk\Banner\Models\Banner"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "id"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+{% set records = mainBanner.records %}
+{% set displayColumn = mainBanner.displayColumn %}
+{% set noRecordsMessage = mainBanner.noRecordsMessage %}
+{% set detailsPage = mainBanner.detailsPage %}
+{% set detailsKeyColumn = mainBanner.detailsKeyColumn %}
+{% set detailsUrlParameter = mainBanner.detailsUrlParameter %}
+
+<div class="main-banner">
+    <div class="slides">
+    {% for record in records %}
+            {% spaceless %} 
+                <div class="slide" style="background: url( {{ record.picture|media }} ) ;">
+
+                    <h1 class="main-banner-item__title">{{ record.title }}</h1>
+                        <p class="main-banner-item__description">
+                            {{ record.description }}
+                        </p>
+                            <a href="{{ record.button_url }}" class="btn-lrg secondary-button --unselectable">{{ record.button_text }}</a>
+                </div>
+            {% endspaceless %}
+    {% else %}
+        <li class="no-data">{{ noRecordsMessage }}</li>
+    {% endfor %}
+</div>
+
+<div class="nav">
+            <div class="btn-group">
+{% for record in records %}
+            {% spaceless %} 
+                {% if loop.first %}
+                    <div class="btn active"></div>
+                {% else %}
+                    <div class="btn"></div>
+                {% endif %}
+            {% endspaceless %}
+    {% else %}
+        <li class="no-data">{{ noRecordsMessage }}</li>
+    {% endfor %}
+</div></div>
+
+</div>
+
+
+";s:5:"mtime";i:1598212356;s:6:"markup";s:1513:"{% set records = mainBanner.records %}
+{% set displayColumn = mainBanner.displayColumn %}
+{% set noRecordsMessage = mainBanner.noRecordsMessage %}
+{% set detailsPage = mainBanner.detailsPage %}
+{% set detailsKeyColumn = mainBanner.detailsKeyColumn %}
+{% set detailsUrlParameter = mainBanner.detailsUrlParameter %}
+
+<div class="main-banner">
+    <div class="slides">
+    {% for record in records %}
+            {% spaceless %} 
+                <div class="slide" style="background: url( {{ record.picture|media }} ) ;">
+
+                    <h1 class="main-banner-item__title">{{ record.title }}</h1>
+                        <p class="main-banner-item__description">
+                            {{ record.description }}
+                        </p>
+                            <a href="{{ record.button_url }}" class="btn-lrg secondary-button --unselectable">{{ record.button_text }}</a>
+                </div>
+            {% endspaceless %}
+    {% else %}
+        <li class="no-data">{{ noRecordsMessage }}</li>
+    {% endfor %}
+</div>
+
+<div class="nav">
+            <div class="btn-group">
+{% for record in records %}
+            {% spaceless %} 
+                {% if loop.first %}
+                    <div class="btn active"></div>
+                {% else %}
+                    <div class="btn"></div>
+                {% endif %}
+            {% endspaceless %}
+    {% else %}
+        <li class="no-data">{{ noRecordsMessage }}</li>
+    {% endfor %}
+</div></div>
+
+</div>";s:4:"code";N;s:22:"builderList mainBanner";a:8:{s:10:"modelClass";s:25:"Iamk\Banner\Models\Banner";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:2:"id";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}}}

@@ -1,0 +1,11 @@
+plugin:
+    name: 'iamk.banner::lang.plugin.name'
+    description: 'iamk.banner::lang.plugin.description'
+    author: iamk
+    icon: oc-icon-picture-o
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Баннер
+        url: iamk/banner/banner
+        icon: icon-picture-o
