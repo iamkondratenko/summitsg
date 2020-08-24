@@ -1,4 +1,4 @@
-1598299250a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:986:"description = "Default layout"
+1598305134a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:988:"description = "Default layout"
 ==
 <!DOCTYPE html>
 <html>
@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="generator" content="OctoberCMS">
         <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
-        <link href="{{ 'assets/css/theme.css?23dffffаrdfd4'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css?2ff3dffffаrdfd4'|theme }}" rel="stylesheet">
         {% styles %}
     </head>
     <body>
@@ -34,7 +34,7 @@
 
     </body>
 </html>
-";s:5:"mtime";i:1598294098;s:6:"markup";s:951:"<!DOCTYPE html>
+";s:5:"mtime";i:1598304532;s:6:"markup";s:953:"<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -45,7 +45,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="generator" content="OctoberCMS">
         <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
-        <link href="{{ 'assets/css/theme.css?23dffffаrdfd4'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css?2ff3dffffаrdfd4'|theme }}" rel="stylesheet">
         {% styles %}
     </head>
     <body>

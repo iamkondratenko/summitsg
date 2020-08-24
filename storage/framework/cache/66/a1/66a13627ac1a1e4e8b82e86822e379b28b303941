@@ -1,14 +1,13 @@
-1598299249a:1:{s:8:"home.htm";a:8:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:203:"title = "Demonstration"
+1598305468a:1:{s:8:"home.htm";a:8:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:203:"title = "Demonstration"
 url = "/"
 layout = "default"
 ==
 {% partial "/site/banner" %}
 {% partial "/site/bullets" %}
 {% partial "/site/services" %}
-{% partial "/site/blog" %}
-{% partial "/site/contact" %}
-";s:5:"mtime";i:1598293072;s:6:"markup";s:146:"{% partial "/site/banner" %}
+{% partial "/blog/blog" %}
+{% partial "/site/contacts" %}";s:5:"mtime";i:1598303643;s:6:"markup";s:147:"{% partial "/site/banner" %}
 {% partial "/site/bullets" %}
 {% partial "/site/services" %}
-{% partial "/site/blog" %}
-{% partial "/site/contact" %}";s:4:"code";N;s:5:"title";s:13:"Demonstration";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";}}
+{% partial "/blog/blog" %}
+{% partial "/site/contacts" %}";s:4:"code";N;s:5:"title";s:13:"Demonstration";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";}}

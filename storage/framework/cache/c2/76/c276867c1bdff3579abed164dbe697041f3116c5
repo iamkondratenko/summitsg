@@ -1,0 +1,5 @@
+1598305513a:1:{s:13:"blog-page.htm";a:8:{s:8:"fileName";s:13:"blog-page.htm";s:7:"content";s:86:"title = "Demonstration"
+url = "/blog"
+layout = "default"
+==
+{% partial "/blog/blog" %}";s:5:"mtime";i:1598304911;s:6:"markup";s:26:"{% partial "/blog/blog" %}";s:4:"code";N;s:5:"title";s:13:"Demonstration";s:3:"url";s:5:"/blog";s:6:"layout";s:7:"default";}}

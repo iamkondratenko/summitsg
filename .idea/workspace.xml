@@ -2,9 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55d08912-df61-4bfc-a3fa-896bd05663f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/summitsg.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/cache/46/d3/contacts.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/cache/4d/96/contacts-page.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/cache/8f/62/post.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/cache/c0/53/blog-page.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/cache/df/25/about-page.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/cache/ea/37/blog.htm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/twig/0a/0a3a899209a8c7a338571c37368406a6ecdd1b2dbad9ea353d17ee76b283ecb2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/twig/0d/0da6c3ab7ca77ee007e33c25e26abe25baab3f80a687d90870ef1f14628c1cbc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/twig/60/60fdc6ca893f5326fea891efd0e63d1a0246590ef5e18881c71eba8aa182c102.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/twig/be/be0561c666454b7688a09a5930e51036896dd1cffabd483d06106f1406fec832.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/twig/e7/e7e949ed96b50cf4ddee946eebd58a3e4205be02ac7c9ac739573afe7d86bce7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cms/twig/e8/e8002c76b1201e9e25746e4f105efc5ca5f2979c337e2361e06e1d5b60e368b7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/39/3b/393b8ef6f9e5cadaf18d965380db0c21b930d7be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/3f/af/3faf583edce519bc8ccd4e640b6cf46dc8d2f0fe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/9a/a1/9aa1e5de968fd258c8588e363af21d973d714362" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/a5/dc/a5dce2f2db9edc3c4a35c4fc2fe0b356c20acc6d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/bc/66/bc667126730573e63695d150d5d29013ae83e548" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/c2/76/c276867c1bdff3579abed164dbe697041f3116c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/d5/9c/d59c8c728fb75fcf680fa3f983d2c974ad052ffc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ssg/pages/about-page.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ssg/pages/blog-page.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ssg/pages/blog-post-page.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ssg/pages/contacts-page.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ssg/partials/post.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/24/c5/header.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/24/c5/header.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/cf/3a/default.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/cf/3a/default.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/da/16/home.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/da/16/home.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/3a/3a73fc8ed466fdb7da3b1887cd7cefd735136dfe27f47f48e33677c749534764.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/3a/3a73fc8ed466fdb7da3b1887cd7cefd735136dfe27f47f48e33677c749534764.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/d1/d16fbe1c32d332c49520b05e650dea905ce3a99fd451ea88c0ec539958d2fa11.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/d1/d16fbe1c32d332c49520b05e650dea905ce3a99fd451ea88c0ec539958d2fa11.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/f6/f6395d74ec62ac14884469a7527d1b00e70c3665766ad9b4a39e9c738fc70259.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/f6/f6395d74ec62ac14884469a7527d1b00e70c3665766ad9b4a39e9c738fc70259.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/storage/database.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/03/cf/03cf6fd31a67cc34ee18efa599a082e2397b3527" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/03/cf/03cf6fd31a67cc34ee18efa599a082e2397b3527" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/17/a0/17a0b930c5bae3e646419e71c48d0d8286c2b4fd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/17/a0/17a0b930c5bae3e646419e71c48d0d8286c2b4fd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/1c/c0/1cc06d8a36e91c4edd03e0ca4a9418908030daa2" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/1c/c0/1cc06d8a36e91c4edd03e0ca4a9418908030daa2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/2b/09/2b095a75dc54fc1d0d6357643c1293c42858b31d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/2b/09/2b095a75dc54fc1d0d6357643c1293c42858b31d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/36/8a/368acac28e0e5af98dc50c07a7811dddf097bd76" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/36/8a/368acac28e0e5af98dc50c07a7811dddf097bd76" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/50/21/5021f6253878cc6533d5f444d252e879f9eb763b" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/50/21/5021f6253878cc6533d5f444d252e879f9eb763b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/5e/fe/5efe94a6ea52203f8a3a873c546cb961167cb8c5" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/5e/fe/5efe94a6ea52203f8a3a873c546cb961167cb8c5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/62/ec/62ec49f1828cdc0ae676fd17e172c4605608a326" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/62/ec/62ec49f1828cdc0ae676fd17e172c4605608a326" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/66/a1/66a13627ac1a1e4e8b82e86822e379b28b303941" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/66/a1/66a13627ac1a1e4e8b82e86822e379b28b303941" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/70/79/7079dcc1a9b28588eed2106701fe8ec788f43063" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/70/79/7079dcc1a9b28588eed2106701fe8ec788f43063" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/8a/18/8a183d88eccf5d548438fdfcf711713e894a935b" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/8a/18/8a183d88eccf5d548438fdfcf711713e894a935b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/b6/21/b6210c6851bfa59e4acac2a0b0521f23eedadb12" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b6/21/b6210c6851bfa59e4acac2a0b0521f23eedadb12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/ed/b8/edb888cbaa3fd7b92573e27273921586edb47fed" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/ed/b8/edb888cbaa3fd7b92573e27273921586edb47fed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/ef/37/ef37ce72aa42e83c0176760f20e6fc44c4dc94b3" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/ef/37/ef37ce72aa42e83c0176760f20e6fc44c4dc94b3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/HLb1Z8Vm9nFmtEKLnPbeVuBz0dKMhKfpgbDWf44r" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/sessions/HLb1Z8Vm9nFmtEKLnPbeVuBz0dKMhKfpgbDWf44r" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ssg/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ssg/assets/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ssg/layouts/default.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ssg/layouts/default.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ssg/pages/home.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ssg/pages/home.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ssg/partials/site/blog.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ssg/partials/blog/blog.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ssg/partials/site/contact.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ssg/partials/site/contacts.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ssg/partials/site/header.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ssg/partials/site/header.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,14 +66,23 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gYqZOzhKYcHKzkJBXMpfGOSnG2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -32,6 +92,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/ssg/partials" />
+      <recent name="$PROJECT_DIR$/themes/ssg/pages" />
+      <recent name="$PROJECT_DIR$/themes/ssg/partials/blog" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,17 +107,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598301927521</updated>
-      <workItem from="1598301928777" duration="198000" />
+      <workItem from="1598301928777" duration="2448000" />
     </task>
+    <task id="LOCAL-00001" summary="Home page ready">
+      <created>1598302176672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598302176672</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Home page ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home page ready" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="437" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598303515709">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1598303515708" />
+    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1598302176353">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1598302176353" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1598302125943">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1598302125943" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1598303018658">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1598303018658" />
   </component>
 </project>

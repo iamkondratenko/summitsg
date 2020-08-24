@@ -90,12 +90,12 @@ class __TwigTemplate_a504505e8da999f8e4bbf0cf2b203731a9bfea2853ba1cb754d30c5e4d6
                 </div>
             </div>
             <div class=\"main-header__menu-items\">
-                <a href=\"#\" class=\"main-header__menu-item\">Главная</a>
+                <a href=\"/\" class=\"main-header__menu-item\">Главная</a>
                 <a href=\"/services\" class=\"main-header__menu-item\">Услуги</a>
                 <a href=\"#\" class=\"main-header__menu-item\">Оплата</a>
-                <a href=\"#\" class=\"main-header__menu-item\">О нас</a>
-                <a href=\"#\" class=\"main-header__menu-item\">Новости</a>
-                <a href=\"#\" class=\"main-header__menu-item\">Контакты</a>
+                <a href=\"/about\" class=\"main-header__menu-item\">О нас</a>
+                <a href=\"/blog\" class=\"main-header__menu-item\">Новости</a>
+                <a href=\"/contacts\" class=\"main-header__menu-item\">Контакты</a>
             </div>
             <div class=\"main-header__feedback-button\">
                 <button class=\"btn-lrg primary-button --unselectable\">Оставить заявку</button>
@@ -173,12 +173,12 @@ class __TwigTemplate_a504505e8da999f8e4bbf0cf2b203731a9bfea2853ba1cb754d30c5e4d6
                 </div>
             </div>
             <div class=\"main-header__menu-items\">
-                <a href=\"#\" class=\"main-header__menu-item\">Главная</a>
+                <a href=\"/\" class=\"main-header__menu-item\">Главная</a>
                 <a href=\"/services\" class=\"main-header__menu-item\">Услуги</a>
                 <a href=\"#\" class=\"main-header__menu-item\">Оплата</a>
-                <a href=\"#\" class=\"main-header__menu-item\">О нас</a>
-                <a href=\"#\" class=\"main-header__menu-item\">Новости</a>
-                <a href=\"#\" class=\"main-header__menu-item\">Контакты</a>
+                <a href=\"/about\" class=\"main-header__menu-item\">О нас</a>
+                <a href=\"/blog\" class=\"main-header__menu-item\">Новости</a>
+                <a href=\"/contacts\" class=\"main-header__menu-item\">Контакты</a>
             </div>
             <div class=\"main-header__feedback-button\">
                 <button class=\"btn-lrg primary-button --unselectable\">Оставить заявку</button>

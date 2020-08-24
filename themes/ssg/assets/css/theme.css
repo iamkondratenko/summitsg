@@ -442,3 +442,20 @@ margin: 36px 0;
   min-width: 300px;
   margin-right: 36px;
 }
+
+.post-picture {
+    height: 100%;
+}
+
+.section.post {
+    margin: 50px auto;
+}
+
+.post.main-banner {
+   height: calc(80vh - 140px);
+}
+
+p.text {
+      width: 80%;
+      margin: 0 auto;
+  }

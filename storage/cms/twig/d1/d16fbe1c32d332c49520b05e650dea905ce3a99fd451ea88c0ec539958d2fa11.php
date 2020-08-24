@@ -47,11 +47,11 @@ class __TwigTemplate_3e144a8a4520fb3412bc5b2d412511f86f02eef57da7502b6ba9ea8258b
         unset($context['__cms_partial_params']);
         // line 4
         $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("/site/blog"        , $context['__cms_partial_params']        , true        );
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("/blog/blog"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
         // line 5
         $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("/site/contact"        , $context['__cms_partial_params']        , true        );
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("/site/contacts"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
     }
 
@@ -75,7 +75,7 @@ class __TwigTemplate_3e144a8a4520fb3412bc5b2d412511f86f02eef57da7502b6ba9ea8258b
         return new Source("{% partial \"/site/banner\" %}
 {% partial \"/site/bullets\" %}
 {% partial \"/site/services\" %}
-{% partial \"/site/blog\" %}
-{% partial \"/site/contact\" %}", "/Users/alexkondratenko/git/summitsg/themes/ssg/pages/home.htm", "");
+{% partial \"/blog/blog\" %}
+{% partial \"/site/contacts\" %}", "/Users/alexkondratenko/git/summitsg/themes/ssg/pages/home.htm", "");
     }
 }
