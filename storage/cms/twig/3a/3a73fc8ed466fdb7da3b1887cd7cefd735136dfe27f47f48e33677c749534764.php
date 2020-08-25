@@ -38,7 +38,7 @@ class __TwigTemplate_14807a0a5b94ae311b0842836e2b6b3ef78bcbed853961fc4e74576d930
 <html>
     <head>
         <meta charset=\"utf-8\">
-        <title>October CMS - ";
+        <title>Summit Security Group - ";
         // line 5
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 5), "title", [], "any", false, false, false, 5), "html", null, true);
         echo "</title>
@@ -55,7 +55,7 @@ class __TwigTemplate_14807a0a5b94ae311b0842836e2b6b3ef78bcbed853961fc4e74576d930
         <meta name=\"generator\" content=\"OctoberCMS\">
         <link rel=\"icon\" type=\"image/png\" href=\"";
         // line 11
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/october.png");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/favicon.png");
         echo "\">
         <link href=\"";
         // line 12
@@ -141,13 +141,13 @@ class __TwigTemplate_14807a0a5b94ae311b0842836e2b6b3ef78bcbed853961fc4e74576d930
 <html>
     <head>
         <meta charset=\"utf-8\">
-        <title>October CMS - {{ this.page.title }}</title>
+        <title>Summit Security Group - {{ this.page.title }}</title>
         <meta name=\"description\" content=\"{{ this.page.meta_description }}\">
         <meta name=\"title\" content=\"{{ this.page.meta_title }}\">
         <meta name=\"author\" content=\"OctoberCMS\">
         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
         <meta name=\"generator\" content=\"OctoberCMS\">
-        <link rel=\"icon\" type=\"image/png\" href=\"{{ 'assets/images/october.png'|theme }}\">
+        <link rel=\"icon\" type=\"image/png\" href=\"{{ 'assets/images/favicon.png'|theme }}\">
         <link href=\"{{ 'assets/css/theme.css?2ff3dffffаrdfd4'|theme }}\" rel=\"stylesheet\">
         {% styles %}
     </head>

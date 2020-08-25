@@ -1,0 +1,68 @@
+fields:
+    title:
+        label: Заголовок
+        span: auto
+        type: text
+    text:
+        label: Текст
+        size: tiny
+        mode: tab
+        span: left
+        type: markdown
+    section1:
+        label: 'Первый блок'
+        span: left
+        type: section
+    adv_icon_1:
+        label: 'Иконка первого блока'
+        mode: file
+        span: left
+        type: mediafinder
+    adv_title_1:
+        label: 'Заголовок первого блока'
+        span: left
+        type: text
+    adv_text_1:
+        label: 'Текст первого блока'
+        size: large
+        mode: tab
+        span: left
+        type: markdown
+    section2:
+        label: 'Второй блок'
+        span: left
+        type: section
+    adv_icon_2:
+        label: 'Иконка второго блока'
+        mode: file
+        span: left
+        type: mediafinder
+    adv_title_2:
+        label: 'Заголовок второго блока'
+        span: left
+        type: text
+    adv_text_2:
+        label: 'Текст второго блока'
+        size: large
+        mode: tab
+        span: left
+        type: markdown
+    section3:
+        label: 'Третий блок'
+        span: left
+        type: section
+    adv_icon_3:
+        label: 'Иконка третего блока'
+        mode: file
+        span: left
+        type: mediafinder
+    adv_title_3:
+        label: 'Заголовок третего блока'
+        span: left
+        type: text
+    adv_text_3:
+        label: 'Текст третьего блока'
+        size: large
+        mode: tab
+        span: left
+        type: markdown

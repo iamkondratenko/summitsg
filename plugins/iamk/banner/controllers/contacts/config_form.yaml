@@ -1,0 +1,10 @@
+name: Contacts
+form: $/iamk/banner/models/contacts/fields.yaml
+modelClass: Iamk\Banner\Models\Contacts
+defaultRedirect: iamk/banner/contacts
+create:
+    redirect: 'iamk/banner/contacts/update/:id'
+    redirectClose: iamk/banner/contacts
+update:
+    redirect: iamk/banner/contacts
+    redirectClose: iamk/banner/contacts

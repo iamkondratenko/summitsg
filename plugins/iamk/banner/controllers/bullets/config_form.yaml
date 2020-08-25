@@ -1,0 +1,10 @@
+name: Bullets
+form: $/iamk/banner/models/bullets/fields.yaml
+modelClass: Iamk\Banner\Models\Bullets
+defaultRedirect: iamk/banner/bullets
+create:
+    redirect: 'iamk/banner/bullets/update/:id'
+    redirectClose: iamk/banner/bullets
+update:
+    redirect: iamk/banner/bullets
+    redirectClose: iamk/banner/bullets

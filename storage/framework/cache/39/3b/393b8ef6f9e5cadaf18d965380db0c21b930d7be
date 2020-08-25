@@ -1,10 +1,9 @@
-1598305513a:1:{s:14:"/blog/blog.htm";a:5:{s:8:"fileName";s:14:"/blog/blog.htm";s:7:"content";s:3668:"<section class="section">
+1598357063a:1:{s:14:"/blog/blog.htm";a:5:{s:8:"fileName";s:14:"/blog/blog.htm";s:7:"content";s:2766:"<section class="section">
 	<div class="block-title">
-		<h2 class="section-title">Нововсти</h2>
+		<h2 class="section-title">Новости</h2>
 		<div class="block-line"></div>
 	</div>
 	
-	<p class="adv-text">Основные принципы, которым следует наша компания — это ориентация на бескомпромиссное качество предоставляемых охранных услуг, максимальный охват возможных услуг, связанных с охранной и безопасностью, а так же индивидуальный подход к каждому клиенту. За время работы компания «КРОК» накопила опыт охраны объектов от небольшой частной недвижимости до промышленных гигантов, обеспечения личной охраны, установки систем охраны и безопасности всех известных мировых брендов.</p>
 
 	<div class="bullets-items">
 		<a href="#" class="blog-item" style="background-image: url({{ 'assets/images/shutterstock_1299308713-2.png'|theme }})">
@@ -47,13 +46,12 @@
 
 	
 	</div>
-</section>";s:5:"mtime";i:1598293057;s:6:"markup";s:3668:"<section class="section">
+</section>";s:5:"mtime";i:1598341528;s:6:"markup";s:2766:"<section class="section">
 	<div class="block-title">
-		<h2 class="section-title">Нововсти</h2>
+		<h2 class="section-title">Новости</h2>
 		<div class="block-line"></div>
 	</div>
 	
-	<p class="adv-text">Основные принципы, которым следует наша компания — это ориентация на бескомпромиссное качество предоставляемых охранных услуг, максимальный охват возможных услуг, связанных с охранной и безопасностью, а так же индивидуальный подход к каждому клиенту. За время работы компания «КРОК» накопила опыт охраны объектов от небольшой частной недвижимости до промышленных гигантов, обеспечения личной охраны, установки систем охраны и безопасности всех известных мировых брендов.</p>
 
 	<div class="bullets-items">
 		<a href="#" class="blog-item" style="background-image: url({{ 'assets/images/shutterstock_1299308713-2.png'|theme }})">

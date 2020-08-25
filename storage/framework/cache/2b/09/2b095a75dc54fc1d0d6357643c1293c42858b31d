@@ -1,16 +1,16 @@
-1598305134a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:988:"description = "Default layout"
+1598357063a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:998:"description = "Default layout"
 ==
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>October CMS - {{ this.page.title }}</title>
+        <title>Summit Security Group - {{ this.page.title }}</title>
         <meta name="description" content="{{ this.page.meta_description }}">
         <meta name="title" content="{{ this.page.meta_title }}">
         <meta name="author" content="OctoberCMS">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="generator" content="OctoberCMS">
-        <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png'|theme }}">
         <link href="{{ 'assets/css/theme.css?2ff3dffffаrdfd4'|theme }}" rel="stylesheet">
         {% styles %}
     </head>
@@ -34,17 +34,17 @@
 
     </body>
 </html>
-";s:5:"mtime";i:1598304532;s:6:"markup";s:953:"<!DOCTYPE html>
+";s:5:"mtime";i:1598337933;s:6:"markup";s:963:"<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>October CMS - {{ this.page.title }}</title>
+        <title>Summit Security Group - {{ this.page.title }}</title>
         <meta name="description" content="{{ this.page.meta_description }}">
         <meta name="title" content="{{ this.page.meta_title }}">
         <meta name="author" content="OctoberCMS">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="generator" content="OctoberCMS">
-        <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png'|theme }}">
         <link href="{{ 'assets/css/theme.css?2ff3dffffаrdfd4'|theme }}" rel="stylesheet">
         {% styles %}
     </head>

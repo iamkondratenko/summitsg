@@ -68,7 +68,7 @@ class __TwigTemplate_a504505e8da999f8e4bbf0cf2b203731a9bfea2853ba1cb754d30c5e4d6
     <div class=\"main-header\">
         <div class=\"main-header__content\">
             <div class=\"main-header__logo-holder\">
-                <div class=\"main-header__logo\">
+                <a href=\"/\" class=\"main-header__logo\">
                     <svg width=\"124px\" height=\"65px\" viewBox=\"0 0 124 65\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">
                         <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
                         <title>Logo</title>
@@ -87,7 +87,7 @@ class __TwigTemplate_a504505e8da999f8e4bbf0cf2b203731a9bfea2853ba1cb754d30c5e4d6
                             </g>
                         </g>
                     </svg>
-                </div>
+                </a>
             </div>
             <div class=\"main-header__menu-items\">
                 <a href=\"/\" class=\"main-header__menu-item\">Главная</a>
@@ -151,7 +151,7 @@ class __TwigTemplate_a504505e8da999f8e4bbf0cf2b203731a9bfea2853ba1cb754d30c5e4d6
     <div class=\"main-header\">
         <div class=\"main-header__content\">
             <div class=\"main-header__logo-holder\">
-                <div class=\"main-header__logo\">
+                <a href=\"/\" class=\"main-header__logo\">
                     <svg width=\"124px\" height=\"65px\" viewBox=\"0 0 124 65\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">
                         <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
                         <title>Logo</title>
@@ -170,7 +170,7 @@ class __TwigTemplate_a504505e8da999f8e4bbf0cf2b203731a9bfea2853ba1cb754d30c5e4d6
                             </g>
                         </g>
                     </svg>
-                </div>
+                </a>
             </div>
             <div class=\"main-header__menu-items\">
                 <a href=\"/\" class=\"main-header__menu-item\">Главная</a>

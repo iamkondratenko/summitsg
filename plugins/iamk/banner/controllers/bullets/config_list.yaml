@@ -1,0 +1,12 @@
+list: $/iamk/banner/models/bullets/columns.yaml
+modelClass: Iamk\Banner\Models\Bullets
+title: Bullets
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'iamk/banner/bullets/update/:id'

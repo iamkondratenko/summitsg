@@ -36,15 +36,14 @@ class __TwigTemplate_5a08d6e331dab440e897b6c600328aaa541d3f81a598b37470862bbf4f8
         // line 1
         echo "<section class=\"section\">
 \t<div class=\"block-title\">
-\t\t<h2 class=\"section-title\">Нововсти</h2>
+\t\t<h2 class=\"section-title\">Новости</h2>
 \t\t<div class=\"block-line\"></div>
 \t</div>
 \t
-\t<p class=\"adv-text\">Основные принципы, которым следует наша компания — это ориентация на бескомпромиссное качество предоставляемых охранных услуг, максимальный охват возможных услуг, связанных с охранной и безопасностью, а так же индивидуальный подход к каждому клиенту. За время работы компания «КРОК» накопила опыт охраны объектов от небольшой частной недвижимости до промышленных гигантов, обеспечения личной охраны, установки систем охраны и безопасности всех известных мировых брендов.</p>
 
 \t<div class=\"bullets-items\">
 \t\t<a href=\"#\" class=\"blog-item\" style=\"background-image: url(";
-        // line 10
+        // line 9
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/shutterstock_1299308713-2.png");
         echo ")\">
 \t\t\t<div class=\"services-item_holder\">
@@ -53,7 +52,7 @@ class __TwigTemplate_5a08d6e331dab440e897b6c600328aaa541d3f81a598b37470862bbf4f8
 \t\t\t</div>
 \t\t</a>
 \t\t<a href=\"#\" class=\"blog-item\" style=\"background-image: url(";
-        // line 16
+        // line 15
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/shutterstock_1299308713-2.png");
         echo ")\">
 \t\t\t<div class=\"services-item_holder\">
@@ -62,7 +61,7 @@ class __TwigTemplate_5a08d6e331dab440e897b6c600328aaa541d3f81a598b37470862bbf4f8
 \t\t\t</div>
 \t\t</a>
 \t\t<a href=\"#\" class=\"blog-item\" style=\"background-image: url(";
-        // line 22
+        // line 21
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/shutterstock_1299308713-2.png");
         echo ")\">
 \t\t\t<div class=\"services-item_holder\">
@@ -71,7 +70,7 @@ class __TwigTemplate_5a08d6e331dab440e897b6c600328aaa541d3f81a598b37470862bbf4f8
 \t\t\t</div>
 \t\t</a>
 \t\t<a href=\"#\" class=\"blog-item\" style=\"background-image: url(";
-        // line 28
+        // line 27
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/shutterstock_1299308713-2.png");
         echo ")\">
 \t\t\t<div class=\"services-item_holder\">
@@ -80,7 +79,7 @@ class __TwigTemplate_5a08d6e331dab440e897b6c600328aaa541d3f81a598b37470862bbf4f8
 \t\t\t</div>
 \t\t</a>
 \t\t<a href=\"#\" class=\"blog-item\" style=\"background-image: url(";
-        // line 34
+        // line 33
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/shutterstock_1299308713-2.png");
         echo ")\">
 \t\t\t<div class=\"services-item_holder\">
@@ -89,7 +88,7 @@ class __TwigTemplate_5a08d6e331dab440e897b6c600328aaa541d3f81a598b37470862bbf4f8
 \t\t\t</div>
 \t\t</a>
 \t\t<a href=\"#\" class=\"blog-item\" style=\"background-image: url(";
-        // line 40
+        // line 39
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/shutterstock_1299308713-2.png");
         echo ")\">
 \t\t\t<div class=\"services-item_holder\">
@@ -116,18 +115,17 @@ class __TwigTemplate_5a08d6e331dab440e897b6c600328aaa541d3f81a598b37470862bbf4f8
 
     public function getDebugInfo()
     {
-        return array (  93 => 40,  84 => 34,  75 => 28,  66 => 22,  57 => 16,  48 => 10,  37 => 1,);
+        return array (  92 => 39,  83 => 33,  74 => 27,  65 => 21,  56 => 15,  47 => 9,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<section class=\"section\">
 \t<div class=\"block-title\">
-\t\t<h2 class=\"section-title\">Нововсти</h2>
+\t\t<h2 class=\"section-title\">Новости</h2>
 \t\t<div class=\"block-line\"></div>
 \t</div>
 \t
-\t<p class=\"adv-text\">Основные принципы, которым следует наша компания — это ориентация на бескомпромиссное качество предоставляемых охранных услуг, максимальный охват возможных услуг, связанных с охранной и безопасностью, а так же индивидуальный подход к каждому клиенту. За время работы компания «КРОК» накопила опыт охраны объектов от небольшой частной недвижимости до промышленных гигантов, обеспечения личной охраны, установки систем охраны и безопасности всех известных мировых брендов.</p>
 
 \t<div class=\"bullets-items\">
 \t\t<a href=\"#\" class=\"blog-item\" style=\"background-image: url({{ 'assets/images/shutterstock_1299308713-2.png'|theme }})\">
