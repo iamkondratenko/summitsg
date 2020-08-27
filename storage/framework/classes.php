@@ -107,4 +107,8 @@
   'Iamk\\Services\\Models\\Services' => 'plugins/iamk/services/models/Services.php',
   'iamk\\banner\\Controllers\\about' => 'plugins/iamk/banner/controllers/about.php',
   'Iamk\\Banner\\Models\\About' => 'plugins/iamk/banner/models/About.php',
+  'iamk\\servicespayment\\Plugin' => 'plugins/iamk/servicespayment/Plugin.php',
+  'iamk\\servicespayment\\Controllers\\servicespayment' => 'plugins/iamk/servicespayment/controllers/servicespayment.php',
+  'Iamk\\ServicesPayment\\Models\\ServicesPayment' => 'plugins/iamk/servicespayment/models/ServicesPayment.php',
+  'iamk\\servicespayment\\models\\ServicesPayment' => 'plugins/iamk/servicespayment/models/ServicesPayment.php',
 );

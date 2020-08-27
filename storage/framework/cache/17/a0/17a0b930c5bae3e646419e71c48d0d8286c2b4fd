@@ -1,4 +1,4 @@
-1598509181a:1:{s:16:"/site/banner.htm";a:6:{s:8:"fileName";s:16:"/site/banner.htm";s:7:"content";s:1769:"[builderList mainBanner]
+1598569363a:1:{s:16:"/site/banner.htm";a:6:{s:8:"fileName";s:16:"/site/banner.htm";s:7:"content";s:1769:"[builderList mainBanner]
 modelClass = "Iamk\Banner\Models\Banner"
 scope = "-"
 scopeValue = "{{ :scope }}"

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="ssg" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="ssg">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/summitsg.net/www" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

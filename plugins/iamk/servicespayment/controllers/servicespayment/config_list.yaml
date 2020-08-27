@@ -1,0 +1,12 @@
+list: $/iamk/servicespayment/models/servicespayment/columns.yaml
+modelClass: Iamk\ServicesPayment\Models\ServicesPayment
+title: ServicesPayment
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'iamk/servicespayment/servicespayment/update/:id'

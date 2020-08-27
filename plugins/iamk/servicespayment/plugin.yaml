@@ -1,0 +1,11 @@
+plugin:
+    name: 'iamk.servicespayment::lang.plugin.name'
+    description: 'iamk.servicespayment::lang.plugin.description'
+    author: iamk
+    icon: oc-icon-credit-card
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Оплаты
+        url: iamk/servicespayment/servicespayment
+        icon: icon-credit-card

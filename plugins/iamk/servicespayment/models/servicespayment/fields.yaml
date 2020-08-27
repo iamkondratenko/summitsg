@@ -1,0 +1,29 @@
+fields:
+    id:
+        label: 'Идентификатор клиента'
+        span: left
+        type: text
+    payment_document_id:
+        label: 'Номер договора'
+        span: left
+        type: text
+    payment_fio:
+        label: ФИО
+        span: left
+        type: text
+    payment_phone:
+        label: Телефон
+        span: left
+        type: text
+    payment_address:
+        label: 'Адрес объекта'
+        span: left
+        type: text
+    payment_term:
+        label: 'Период оплаты'
+        span: left
+        type: text
+    payment_sum:
+        label: 'Сумма оплаты'
+        span: left
+        type: text

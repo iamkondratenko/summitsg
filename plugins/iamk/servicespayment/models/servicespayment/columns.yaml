@@ -1,0 +1,22 @@
+columns:
+    created_at:
+        label: Дата
+        type: datetime
+    payment_document_id:
+        label: 'Номер договора'
+        type: text
+    payment_fio:
+        label: ФИО
+        type: text
+    payment_phone:
+        label: Телефон
+        type: text
+    payment_address:
+        label: 'Адрес объекта'
+        type: text
+    payment_sum:
+        label: Сумма
+        type: number
+    payment_term:
+        label: 'Период оплаты'
+        type: text

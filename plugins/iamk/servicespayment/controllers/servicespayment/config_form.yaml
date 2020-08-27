@@ -1,0 +1,10 @@
+name: ServicesPayment
+form: $/iamk/servicespayment/models/servicespayment/fields.yaml
+modelClass: Iamk\ServicesPayment\Models\ServicesPayment
+defaultRedirect: iamk/servicespayment/servicespayment
+create:
+    redirect: 'iamk/servicespayment/servicespayment/update/:id'
+    redirectClose: iamk/servicespayment/servicespayment
+update:
+    redirect: iamk/servicespayment/servicespayment
+    redirectClose: iamk/servicespayment/servicespayment

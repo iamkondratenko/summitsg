@@ -1,4 +1,4 @@
-1598509181a:1:{s:17:"/site/bullets.htm";a:7:{s:8:"fileName";s:17:"/site/bullets.htm";s:7:"content";s:2021:"[builderList bulletList]
+1598569363a:1:{s:17:"/site/bullets.htm";a:7:{s:8:"fileName";s:17:"/site/bullets.htm";s:7:"content";s:2021:"[builderList bulletList]
 modelClass = "Iamk\Banner\Models\Bullets"
 scope = "-"
 scopeValue = "{{ :scope }}"

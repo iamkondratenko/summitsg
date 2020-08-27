@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table iamk_servicespayment_'
+    - builder_table_create_iamk_servicespayment_.php
+1.0.3:
+    - 'Updated table iamk_servicespayment_'
+    - builder_table_update_iamk_servicespayment_data.php
+1.0.4:
+    - 'Updated table iamk_servicespayment_data'
+    - builder_table_update_iamk_servicespayment_data_2.php
+1.0.5:
+    - 'Updated table iamk_servicespayment_data'
+    - builder_table_update_iamk_servicespayment_data_3.php
