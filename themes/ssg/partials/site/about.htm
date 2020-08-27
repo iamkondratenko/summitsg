@@ -1,0 +1,39 @@
+[viewBag]
+
+[builderList About]
+modelClass = "Iamk\Banner\Models\About"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "slug"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+recordsPerPage = 1
+pageNumber = "{{ :page }}"
+==
+{% set records = About.records %}
+{% set displayColumn = About.displayColumn %}
+{% set noRecordsMessage = About.noRecordsMessage %}
+{% set detailsPage = About.detailsPage %}
+{% set detailsKeyColumn = About.detailsKeyColumn %}
+{% set detailsUrlParameter = About.detailsUrlParameter %}
+
+    {% for record in records %}
+            {# Use spaceless tag to remove spaces inside the A tag. #}
+            {% spaceless %}
+                <div class="post main-banner">
+                    <div class="slide post-picture" style="background: url( {{ record.picture|media }} ) ;">
+                        <h1 class="main-banner-item__title">{{ record.title }}</h1>
+
+                    </div>
+                </div>
+
+                <section class="section post">
+                    <div class="post-content">
+                        <p class="text">{{ record.text|raw }}</p>
+                    </div>
+                </section>
+            {% endspaceless %}
+    {% else %}
+        <li class="no-data">{{ noRecordsMessage }}</li>
+    {% endfor %}

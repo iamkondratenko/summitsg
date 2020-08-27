@@ -43,10 +43,14 @@ class __TwigTemplate_3e144a8a4520fb3412bc5b2d412511f86f02eef57da7502b6ba9ea8258b
         unset($context['__cms_partial_params']);
         // line 3
         $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("/site/services"        , $context['__cms_partial_params']        , true        );
+        $context['__cms_partial_params']['serives_title'] = "Услуги"        ;
+        $context['__cms_partial_params']['post_per_page'] = 9        ;
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("/services/services"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
         // line 4
         $context['__cms_partial_params'] = [];
+        $context['__cms_partial_params']['title_other_news'] = "Новости"        ;
+        $context['__cms_partial_params']['recordsPerPage'] = 6        ;
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("/blog/blog"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
         // line 5
@@ -67,15 +71,15 @@ class __TwigTemplate_3e144a8a4520fb3412bc5b2d412511f86f02eef57da7502b6ba9ea8258b
 
     public function getDebugInfo()
     {
-        return array (  53 => 5,  49 => 4,  45 => 3,  41 => 2,  37 => 1,);
+        return array (  57 => 5,  51 => 4,  45 => 3,  41 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% partial \"/site/banner\" %}
 {% partial \"/site/bullets\" %}
-{% partial \"/site/services\" %}
-{% partial \"/blog/blog\" %}
+{% partial \"/services/services\" serives_title='Услуги' post_per_page=9  %}
+{% partial \"/blog/blog\" title_other_news='Новости' recordsPerPage=6 %}
 {% partial \"/site/contacts\" %}", "/Users/alexkondratenko/git/summitsg/themes/ssg/pages/home.htm", "");
     }
 }

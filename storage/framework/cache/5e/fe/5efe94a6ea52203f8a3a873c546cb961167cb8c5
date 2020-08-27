@@ -1,4 +1,4 @@
-1598357063a:1:{s:17:"/site/bullets.htm";a:7:{s:8:"fileName";s:17:"/site/bullets.htm";s:7:"content";s:2081:"[builderList bulletList]
+1598509181a:1:{s:17:"/site/bullets.htm";a:7:{s:8:"fileName";s:17:"/site/bullets.htm";s:7:"content";s:2021:"[builderList bulletList]
 modelClass = "Iamk\Banner\Models\Bullets"
 scope = "-"
 scopeValue = "{{ :scope }}"
@@ -58,7 +58,7 @@ pageNumber = "{{ :page }}"
     {% endfor %}
 
 
-";s:5:"mtime";i:1598356225;s:6:"markup";s:1811:"{% set records = bulletList.records %}
+";s:5:"mtime";i:1598357641;s:6:"markup";s:1766:"{% set records = bulletList.records %}
 {% set displayColumn = bulletList.displayColumn %}
 {% set noRecordsMessage = bulletList.noRecordsMessage %}
 {% set detailsPage = bulletList.detailsPage %}

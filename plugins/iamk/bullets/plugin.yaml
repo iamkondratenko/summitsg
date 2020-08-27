@@ -1,6 +1,0 @@
-plugin:
-    name: 'iamk.bullets::lang.plugin.name'
-    description: 'iamk.bullets::lang.plugin.description'
-    author: iamk
-    icon: oc-icon-bullseye
-    homepage: ''

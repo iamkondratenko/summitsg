@@ -1,0 +1,28 @@
+fields:
+    picture:
+        label: 'Главная картинка'
+        mode: file
+        span: left
+        type: mediafinder
+    title:
+        label: Заголовок
+        span: left
+        type: text
+    slug:
+        label: Ссылка
+        span: left
+        preset:
+            field: title
+            type: slug
+        type: text
+    description:
+        label: Описание
+        size: large
+        mode: tab
+        span: left
+        type: markdown
+    text:
+        label: Статья
+        size: giant
+        span: left
+        type: richeditor

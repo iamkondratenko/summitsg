@@ -35,7 +35,7 @@ class __TwigTemplate_937b26da2285ee3a9ce718a0de3c120cbf0e02bfe0b5a0e14184e4bceb3
         $macros = $this->macros;
         // line 1
         echo "<footer id=\"App-Footer\">
-\t<div class=\"main-header\">
+\t<div class=\"main-header --desktop\">
         <div class=\"main-header__content\">
             <div class=\"main-header__logo-holder\">
                 <div class=\"main-header__logo\">
@@ -88,7 +88,7 @@ class __TwigTemplate_937b26da2285ee3a9ce718a0de3c120cbf0e02bfe0b5a0e14184e4bceb3
     public function getSourceContext()
     {
         return new Source("<footer id=\"App-Footer\">
-\t<div class=\"main-header\">
+\t<div class=\"main-header --desktop\">
         <div class=\"main-header__content\">
             <div class=\"main-header__logo-holder\">
                 <div class=\"main-header__logo\">

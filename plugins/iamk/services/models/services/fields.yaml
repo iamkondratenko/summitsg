@@ -1,0 +1,29 @@
+fields:
+    picture:
+        label: Картинка
+        mode: file
+        span: left
+        type: mediafinder
+    title:
+        label: Заголовок
+        span: left
+        type: text
+    slug:
+        label: Ссылка
+        span: left
+        preset:
+            field: title
+            type: slug
+        type: text
+        commentAbove: 'Заполняется автоматически'
+    description:
+        label: 'Краткое описание'
+        size: small
+        mode: tab
+        span: left
+        type: markdown
+    text:
+        label: Текст
+        size: giant
+        span: left
+        type: richeditor

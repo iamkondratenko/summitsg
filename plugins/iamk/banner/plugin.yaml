@@ -22,3 +22,7 @@ navigation:
                 label: Контакты
                 url: iamk/banner/contacts
                 icon: icon-map-marker
+            side-menu-item4:
+                label: 'О нас'
+                url: iamk/banner/about
+                icon: icon-bookmark

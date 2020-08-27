@@ -1,0 +1,40 @@
+[builderDetails servicesDetails]
+modelClass = "Iamk\Services\Models\Services"
+identifierValue = "{{ :slug }}"
+modelKeyColumn = "slug"
+displayColumn = "slug"
+notFoundMessage = "Record not found"
+
+[viewBag]
+==
+{% set record = servicesDetails.record %}
+{% set displayColumn = servicesDetails.displayColumn %}
+{% set notFoundMessage = servicesDetails.notFoundMessage %}
+
+{% if record %}
+   <div class="post main-banner">
+        <div class="slide post-picture" style="background: url( {{ record.picture|media }} ) ;">
+            <h1 class="main-banner-item__title">{{ record.title }}</h1>
+            <p class="main-banner-item__description">
+                {{ record.description }}
+            </p>
+            <button class="btn-lrg secondary-button --unselectable">Заказать услугу</button>
+        </div>
+    </div>
+
+    <section class="section post">
+        <div class="post-content">
+            <p class="text">{{ record.text|raw }}</p>
+        </div>
+    </section>
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}
+
+{% if record %}
+
+    
+
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}

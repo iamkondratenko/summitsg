@@ -1,0 +1,34 @@
+[builderDetails post]
+modelClass = "Iamk\Blog\Models\Blog"
+identifierValue = "{{ :slug }}"
+modelKeyColumn = "slug"
+displayColumn = "slug"
+notFoundMessage = "Record not found"
+
+[viewBag]
+==
+{% set record = post.record %}
+{% set displayColumn = post.displayColumn %}
+{% set notFoundMessage = post.notFoundMessage %}
+
+{% if record %}
+
+    <div class="post main-banner">
+        <div class="slide post-picture" style="background: url( {{ record.picture|media }} ) ;">
+            <h1 class="main-banner-item__title">{{ record.title }}</h1>
+            <p class="main-banner-item__description">
+                {{ record.description }}
+            </p>
+        </div>
+    </div>
+
+    <section class="section post">
+        <div class="post-content">
+            <p class="text">{{ record.text|raw }}</p>
+        </div>
+    </section>
+
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}
+

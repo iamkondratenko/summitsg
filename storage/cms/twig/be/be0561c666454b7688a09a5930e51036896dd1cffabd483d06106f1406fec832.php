@@ -35,6 +35,8 @@ class __TwigTemplate_9a72b6953100d91592cd6daeb60846344ae868d5429560f86f26b2d7134
         $macros = $this->macros;
         // line 1
         $context['__cms_partial_params'] = [];
+        $context['__cms_partial_params']['title_other_news'] = "Новости"        ;
+        $context['__cms_partial_params']['recordsPerPage'] = 6        ;
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("/blog/blog"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
     }
@@ -56,6 +58,6 @@ class __TwigTemplate_9a72b6953100d91592cd6daeb60846344ae868d5429560f86f26b2d7134
 
     public function getSourceContext()
     {
-        return new Source("{% partial \"/blog/blog\" %}", "/Users/alexkondratenko/git/summitsg/themes/ssg/pages/blog-page.htm", "");
+        return new Source("{% partial \"/blog/blog\" title_other_news='Новости' recordsPerPage=6 %}", "/Users/alexkondratenko/git/summitsg/themes/ssg/pages/blog-page.htm", "");
     }
 }

@@ -1,49 +1,44 @@
+[builderList postList]
+modelClass = "Iamk\Blog\Models\Blog"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "slug"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+recordsPerPage = {{ recordsPerPage }}
+
+[viewBag]
+==
+{% set records = postList.records %}
+{% set displayColumn = postList.displayColumn %}
+{% set noRecordsMessage = postList.noRecordsMessage %}
+{% set detailsPage = postList.detailsPage %}
+{% set detailsKeyColumn = postList.detailsKeyColumn %}
+{% set detailsUrlParameter = postList.detailsUrlParameter %}
+
 <section class="section">
 	<div class="block-title">
-		<h2 class="section-title">Новости</h2>
+		<h2 class="section-title">{{ title_other_news }}</h2>
 		<div class="block-line"></div>
 	</div>
-	
+
 
 	<div class="bullets-items">
-		<a href="#" class="blog-item" style="background-image: url({{ 'assets/images/shutterstock_1299308713-2.png'|theme }})">
-			<div class="services-item_holder">
-				<h3 class="blog-item_title">Мобильное приложение</h3>
-				<p class="blog-item_text">В число наиболее востребованных услуг охранной фирмы входит охрана квартир</p>
-			</div>
-		</a>
-		<a href="#" class="blog-item" style="background-image: url({{ 'assets/images/shutterstock_1299308713-2.png'|theme }})">
-			<div class="services-item_holder">
-				<h3 class="blog-item_title">Мобильное приложение</h3>
-				<p class="blog-item_text">В число наиболее востребованных услуг охранной фирмы входит охрана квартир</p>
-			</div>
-		</a>
-		<a href="#" class="blog-item" style="background-image: url({{ 'assets/images/shutterstock_1299308713-2.png'|theme }})">
-			<div class="services-item_holder">
-				<h3 class="blog-item_title">Мобильное приложение</h3>
-				<p class="blog-item_text">В число наиболее востребованных услуг охранной фирмы входит охрана квартир</p>
-			</div>
-		</a>
-		<a href="#" class="blog-item" style="background-image: url({{ 'assets/images/shutterstock_1299308713-2.png'|theme }})">
-			<div class="services-item_holder">
-				<h3 class="blog-item_title">Мобильное приложение</h3>
-				<p class="blog-item_text">В число наиболее востребованных услуг охранной фирмы входит охрана квартир</p>
-			</div>
-		</a>
-		<a href="#" class="blog-item" style="background-image: url({{ 'assets/images/shutterstock_1299308713-2.png'|theme }})">
-			<div class="services-item_holder">
-				<h3 class="blog-item_title">Мобильное приложение</h3>
-				<p class="blog-item_text">В число наиболее востребованных услуг охранной фирмы входит охрана квартир</p>
-			</div>
-		</a>
-		<a href="#" class="blog-item" style="background-image: url({{ 'assets/images/shutterstock_1299308713-2.png'|theme }})">
-			<div class="services-item_holder">
-				<h3 class="blog-item_title">Мобильное приложение</h3>
-				<p class="blog-item_text">В число наиболее востребованных услуг охранной фирмы входит охрана квартир</p>
-			</div>
-		</a>
-		
+    {% for record in records %}
+            {# Use spaceless tag to remove spaces inside the A tag. #}
+            {% spaceless %}
+				<a href="/blog/{{ record.slug }}" class="blog-item" style="background-image: url({{ record.picture|media }})">
+					<div class="services-item_holder">
+						<h3 class="blog-item_title">{{ record.title }}</h3>
+						<p class="blog-item_text">{{ record.description }}</p>
+					</div>
+				</a>
+            {% endspaceless %}
+    {% else %}
+        <li class="no-data">{{ noRecordsMessage }}</li>
+    {% endfor %}
 
-	
 	</div>
 </section>

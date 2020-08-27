@@ -1,0 +1,84 @@
+1598509181a:1:{s:22:"/services/services.htm";a:7:{s:8:"fileName";s:22:"/services/services.htm";s:7:"content";s:2391:"[viewBag]
+
+[builderList servicesList]
+modelClass = "Iamk\Services\Models\Services"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "slug"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "slug"
+recordsPerPage = {{ post_per_page }}
+pageNumber = "{{ :page }}"
+==
+{% set records = servicesList.records %}
+{% set displayColumn = servicesList.displayColumn %}
+{% set noRecordsMessage = servicesList.noRecordsMessage %}
+{% set detailsPage = servicesList.detailsPage %}
+{% set detailsKeyColumn = servicesList.detailsKeyColumn %}
+{% set detailsUrlParameter = servicesList.detailsUrlParameter %}
+
+<section class="section">
+	<div class="block-title">
+		<h2 class="section-title">{{ serives_title }}</h2>
+		<div class="block-line"></div>
+	</div>
+
+	<p class="adv-text">Основные принципы, которым следует наша компания — это ориентация на бескомпромиссное качество предоставляемых охранных услуг, максимальный охват возможных услуг, связанных с охранной и безопасностью, а так же индивидуальный подход к каждому клиенту. За время работы компания «КРОК» накопила опыт охраны объектов от небольшой частной недвижимости до промышленных гигантов, обеспечения личной охраны, установки систем охраны и безопасности всех известных мировых брендов.</p>
+
+	<div class="bullets-items">
+    {% for record in records %}
+		{% if detailsUrlParameter != record.slug %}
+            {# Use spaceless tag to remove spaces inside the A tag. #}
+            {% spaceless %}
+				<a href="/services/{{ record.slug }}" class="services-item" style="background-image: url({{ record.picture|media }})">
+					<div class="services-item_holder">
+						<h3 class="service-item_title">{{ record.title }}</h3>
+						<p class="service-item_text">{{ record.description }}</p>
+					</div>
+				</a>
+            {% endspaceless %}
+		{% endif %}
+    {% else %}
+        <li class="no-data">{{ noRecordsMessage }}</li>
+    {% endfor %}
+
+
+
+	</div>
+</section>";s:5:"mtime";i:1598395988;s:6:"markup";s:2080:"{% set records = servicesList.records %}
+{% set displayColumn = servicesList.displayColumn %}
+{% set noRecordsMessage = servicesList.noRecordsMessage %}
+{% set detailsPage = servicesList.detailsPage %}
+{% set detailsKeyColumn = servicesList.detailsKeyColumn %}
+{% set detailsUrlParameter = servicesList.detailsUrlParameter %}
+
+<section class="section">
+	<div class="block-title">
+		<h2 class="section-title">{{ serives_title }}</h2>
+		<div class="block-line"></div>
+	</div>
+
+	<p class="adv-text">Основные принципы, которым следует наша компания — это ориентация на бескомпромиссное качество предоставляемых охранных услуг, максимальный охват возможных услуг, связанных с охранной и безопасностью, а так же индивидуальный подход к каждому клиенту. За время работы компания «КРОК» накопила опыт охраны объектов от небольшой частной недвижимости до промышленных гигантов, обеспечения личной охраны, установки систем охраны и безопасности всех известных мировых брендов.</p>
+
+	<div class="bullets-items">
+    {% for record in records %}
+		{% if detailsUrlParameter != record.slug %}
+            {# Use spaceless tag to remove spaces inside the A tag. #}
+            {% spaceless %}
+				<a href="/services/{{ record.slug }}" class="services-item" style="background-image: url({{ record.picture|media }})">
+					<div class="services-item_holder">
+						<h3 class="service-item_title">{{ record.title }}</h3>
+						<p class="service-item_text">{{ record.description }}</p>
+					</div>
+				</a>
+            {% endspaceless %}
+		{% endif %}
+    {% else %}
+        <li class="no-data">{{ noRecordsMessage }}</li>
+    {% endfor %}
+
+
+
+	</div>
+</section>";s:4:"code";N;s:7:"viewBag";a:0:{}s:24:"builderList servicesList";a:9:{s:10:"modelClass";s:29:"Iamk\Services\Models\Services";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:4:"slug";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:4:"slug";s:14:"recordsPerPage";s:19:"{{ post_per_page }}";s:10:"pageNumber";s:11:"{{ :page }}";}}}

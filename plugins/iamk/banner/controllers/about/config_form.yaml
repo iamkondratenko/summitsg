@@ -1,0 +1,10 @@
+name: About
+form: $/iamk/banner/models/about/fields.yaml
+modelClass: Iamk\Banner\Models\About
+defaultRedirect: iamk/banner/about
+create:
+    redirect: 'iamk/banner/about/update/:id'
+    redirectClose: iamk/banner/about
+update:
+    redirect: iamk/banner/about
+    redirectClose: iamk/banner/about

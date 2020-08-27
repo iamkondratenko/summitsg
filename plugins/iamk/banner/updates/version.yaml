@@ -12,3 +12,6 @@
 1.0.5:
     - 'Created table iamk_banner_contact'
     - builder_table_create_iamk_banner_contact.php
+1.0.6:
+    - 'Created table iamk_banner_about'
+    - builder_table_create_iamk_banner_about.php

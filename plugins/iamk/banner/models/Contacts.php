@@ -15,11 +15,13 @@ class Contacts extends Model
      */
     public $timestamps = false;
 
+    protected $jsonable = ['bullets'];
 
     /**
      * @var string The database table used by the model.
      */
     public $table = 'iamk_banner_contact';
+
 
     /**
      * @var array Validation rules

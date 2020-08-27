@@ -1,5 +1,8 @@
-1598357063a:1:{s:18:"blog-post-page.htm";a:8:{s:8:"fileName";s:18:"blog-post-page.htm";s:7:"content";s:92:"title = "Demonstration"
+1598509181a:1:{s:18:"blog-post-page.htm";a:8:{s:8:"fileName";s:18:"blog-post-page.htm";s:7:"content";s:184:"title = "Demonstration"
 url = "/blog/:slug"
 layout = "default"
 ==
-{% partial "/blog/blog" %}";s:5:"mtime";i:1598304889;s:6:"markup";s:26:"{% partial "/blog/blog" %}";s:4:"code";N;s:5:"title";s:13:"Demonstration";s:3:"url";s:11:"/blog/:slug";s:6:"layout";s:7:"default";}}
+{% partial "/blog/post" %}
+{% partial "/blog/blog" title_other_news='Другие новости' recordsPerPage=4 %}
+";s:5:"mtime";i:1598375925;s:6:"markup";s:117:"{% partial "/blog/post" %}
+{% partial "/blog/blog" title_other_news='Другие новости' recordsPerPage=4 %}";s:4:"code";N;s:5:"title";s:13:"Demonstration";s:3:"url";s:11:"/blog/:slug";s:6:"layout";s:7:"default";}}

@@ -2,4 +2,5 @@ title = "Demonstration"
 url = "/blog/:slug"
 layout = "default"
 ==
-{% partial "/blog/blog" %}
+{% partial "/blog/post" %}
+{% partial "/blog/blog" title_other_news='Другие новости' recordsPerPage=4 %}

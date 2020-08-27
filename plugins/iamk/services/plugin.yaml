@@ -1,0 +1,11 @@
+plugin:
+    name: 'iamk.services::lang.plugin.name'
+    description: 'iamk.services::lang.plugin.description'
+    author: iamk
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Услуги
+        url: iamk/services/services
+        icon: icon-users

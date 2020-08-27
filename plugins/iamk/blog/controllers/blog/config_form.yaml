@@ -1,0 +1,10 @@
+name: Blog
+form: $/iamk/blog/models/blog/fields.yaml
+modelClass: Iamk\Blog\Models\Blog
+defaultRedirect: iamk/blog/blog
+create:
+    redirect: 'iamk/blog/blog/update/:id'
+    redirectClose: iamk/blog/blog
+update:
+    redirect: iamk/blog/blog
+    redirectClose: iamk/blog/blog

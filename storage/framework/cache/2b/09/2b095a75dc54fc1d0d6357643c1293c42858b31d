@@ -1,7 +1,7 @@
-1598357063a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:998:"description = "Default layout"
+1598509181a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1200:"description = "Default layout"
 ==
 <!DOCTYPE html>
-<html>
+<html lang="ru">
     <head>
         <meta charset="utf-8">
         <title>Summit Security Group - {{ this.page.title }}</title>
@@ -10,8 +10,9 @@
         <meta name="author" content="OctoberCMS">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="generator" content="OctoberCMS">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet">
         <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png'|theme }}">
-        <link href="{{ 'assets/css/theme.css?2ff3dffffаrdfd4'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css?2ff3dfffаrffgsffffаrdfd4'|theme }}" rel="stylesheet">
         {% styles %}
     </head>
     <body>
@@ -24,6 +25,8 @@
 
 
 {% partial "/site/footer" %}
+
+{% partial "/modals/modals" %}
 
 
 
@@ -34,8 +37,8 @@
 
     </body>
 </html>
-";s:5:"mtime";i:1598337933;s:6:"markup";s:963:"<!DOCTYPE html>
-<html>
+";s:5:"mtime";i:1598484238;s:6:"markup";s:1165:"<!DOCTYPE html>
+<html lang="ru">
     <head>
         <meta charset="utf-8">
         <title>Summit Security Group - {{ this.page.title }}</title>
@@ -44,8 +47,9 @@
         <meta name="author" content="OctoberCMS">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="generator" content="OctoberCMS">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet">
         <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png'|theme }}">
-        <link href="{{ 'assets/css/theme.css?2ff3dffffаrdfd4'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css?2ff3dfffаrffgsffffаrdfd4'|theme }}" rel="stylesheet">
         {% styles %}
     </head>
     <body>
@@ -58,6 +62,8 @@
 
 
 {% partial "/site/footer" %}
+
+{% partial "/modals/modals" %}
 
 
 
