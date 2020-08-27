@@ -1,0 +1,35 @@
+fields:
+    title:
+        label: Заголовок
+        span: left
+        type: text
+    text:
+        label: Текст
+        size: large
+        mode: tab
+        span: left
+        type: markdown
+    map:
+        label: 'Код карты'
+        size: small
+        language: php
+        span: auto
+        type: codeeditor
+    bullets:
+        label: 'Контактные данные'
+        prompt: 'Add new item'
+        span: auto
+        type: repeater
+        form:
+            fields:
+                icon:
+                    label: Иконка
+                    mode: image
+                    span: auto
+                    type: mediafinder
+                contact_info:
+                    label: Текст
+                    size: small
+                    mode: tab
+                    span: auto
+                    type: markdown

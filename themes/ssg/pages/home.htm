@@ -4,6 +4,6 @@ layout = "default"
 ==
 {% partial "/site/banner" %}
 {% partial "/site/bullets" %}
-{% partial "/site/services" %}
-{% partial "/site/blog" %}
-{% partial "/site/contact" %}
+{% partial "/services/services" serives_title='Услуги' post_per_page=9  %}
+{% partial "/blog/blog" title_other_news='Новости' recordsPerPage=6 %}
+{% partial "/site/contacts" %}

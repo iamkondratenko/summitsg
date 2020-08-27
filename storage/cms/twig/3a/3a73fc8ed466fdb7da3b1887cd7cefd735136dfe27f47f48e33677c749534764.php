@@ -35,10 +35,10 @@ class __TwigTemplate_14807a0a5b94ae311b0842836e2b6b3ef78bcbed853961fc4e74576d930
         $macros = $this->macros;
         // line 1
         echo "<!DOCTYPE html>
-<html>
+<html lang=\"ru\">
     <head>
         <meta charset=\"utf-8\">
-        <title>October CMS - ";
+        <title>Summit Security Group - ";
         // line 5
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 5), "title", [], "any", false, false, false, 5), "html", null, true);
         echo "</title>
@@ -53,53 +53,61 @@ class __TwigTemplate_14807a0a5b94ae311b0842836e2b6b3ef78bcbed853961fc4e74576d930
         <meta name=\"author\" content=\"OctoberCMS\">
         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
         <meta name=\"generator\" content=\"OctoberCMS\">
+        <link href=\"https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap\" rel=\"stylesheet\">
         <link rel=\"icon\" type=\"image/png\" href=\"";
-        // line 11
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/october.png");
+        // line 12
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/favicon.png");
         echo "\">
         <link href=\"";
-        // line 12
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/theme.css?23dffffаrdfd4");
+        // line 13
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/theme.css?2ff3dfffаrffgsffffаrdfd4");
         echo "\" rel=\"stylesheet\">
         ";
-        // line 13
+        // line 14
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('css');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('styles');
-        // line 14
+        // line 15
         echo "    </head>
     <body>
 
 ";
-        // line 17
+        // line 18
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("/site/header"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 18
+        // line 19
         echo "
 <div id=\"App-Body\">
     ";
-        // line 20
-        echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
         // line 21
+        echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
+        // line 22
         echo "</div>
 
 
 ";
-        // line 24
+        // line 25
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("/site/footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 25
+        // line 26
+        echo "
+";
+        // line 27
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("/modals/modals"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 28
         echo "
 
 
         <!-- Scripts -->
         <script src=\"";
-        // line 29
+        // line 32
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/javascript/app.js?123");
         echo "\"></script>
         ";
-        // line 30
+        // line 33
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework.combined-min.js"></script>'.PHP_EOL;
@@ -110,11 +118,11 @@ class __TwigTemplate_14807a0a5b94ae311b0842836e2b6b3ef78bcbed853961fc4e74576d930
         }
         echo '<link rel="stylesheet" property="stylesheet" href="' . Request::getBasePath() .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 31
+        // line 34
         echo "        ";
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 32
+        // line 35
         echo "
     </body>
 </html>";
@@ -132,23 +140,24 @@ class __TwigTemplate_14807a0a5b94ae311b0842836e2b6b3ef78bcbed853961fc4e74576d930
 
     public function getDebugInfo()
     {
-        return array (  118 => 32,  114 => 31,  103 => 30,  99 => 29,  93 => 25,  89 => 24,  84 => 21,  82 => 20,  78 => 18,  74 => 17,  69 => 14,  66 => 13,  62 => 12,  58 => 11,  51 => 7,  47 => 6,  43 => 5,  37 => 1,);
+        return array (  126 => 35,  122 => 34,  111 => 33,  107 => 32,  101 => 28,  97 => 27,  94 => 26,  90 => 25,  85 => 22,  83 => 21,  79 => 19,  75 => 18,  70 => 15,  67 => 14,  63 => 13,  59 => 12,  51 => 7,  47 => 6,  43 => 5,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<!DOCTYPE html>
-<html>
+<html lang=\"ru\">
     <head>
         <meta charset=\"utf-8\">
-        <title>October CMS - {{ this.page.title }}</title>
+        <title>Summit Security Group - {{ this.page.title }}</title>
         <meta name=\"description\" content=\"{{ this.page.meta_description }}\">
         <meta name=\"title\" content=\"{{ this.page.meta_title }}\">
         <meta name=\"author\" content=\"OctoberCMS\">
         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
         <meta name=\"generator\" content=\"OctoberCMS\">
-        <link rel=\"icon\" type=\"image/png\" href=\"{{ 'assets/images/october.png'|theme }}\">
-        <link href=\"{{ 'assets/css/theme.css?23dffffаrdfd4'|theme }}\" rel=\"stylesheet\">
+        <link href=\"https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap\" rel=\"stylesheet\">
+        <link rel=\"icon\" type=\"image/png\" href=\"{{ 'assets/images/favicon.png'|theme }}\">
+        <link href=\"{{ 'assets/css/theme.css?2ff3dfffаrffgsffffаrdfd4'|theme }}\" rel=\"stylesheet\">
         {% styles %}
     </head>
     <body>
@@ -161,6 +170,8 @@ class __TwigTemplate_14807a0a5b94ae311b0842836e2b6b3ef78bcbed853961fc4e74576d930
 
 
 {% partial \"/site/footer\" %}
+
+{% partial \"/modals/modals\" %}
 
 
 

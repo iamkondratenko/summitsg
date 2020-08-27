@@ -1,6 +1,6 @@
-1598299415a:1:{s:12:"services.htm";a:8:{s:8:"fileName";s:12:"services.htm";s:7:"content";s:95:"title = "Demonstration"
+1598509181a:1:{s:12:"services.htm";a:8:{s:8:"fileName";s:12:"services.htm";s:7:"content";s:146:"title = "Demonstration"
 url = "/services"
 layout = "default"
 ==
-{% partial "/site/services" %}
-";s:5:"mtime";i:1598298794;s:6:"markup";s:30:"{% partial "/site/services" %}";s:4:"code";N;s:5:"title";s:13:"Demonstration";s:3:"url";s:9:"/services";s:6:"layout";s:7:"default";}}
+{% partial "/services/services" serives_title='Услуги' post_per_page=24  %}
+";s:5:"mtime";i:1598394689;s:6:"markup";s:81:"{% partial "/services/services" serives_title='Услуги' post_per_page=24  %}";s:4:"code";N;s:5:"title";s:13:"Demonstration";s:3:"url";s:9:"/services";s:6:"layout";s:7:"default";}}

@@ -6,3 +6,12 @@
 1.0.3:
     - 'Updated table iamk_banner_slider'
     - builder_table_update_iamk_banner_slider.php
+1.0.4:
+    - 'Created table iamk_banner_bullets'
+    - builder_table_create_iamk_banner_bullets.php
+1.0.5:
+    - 'Created table iamk_banner_contact'
+    - builder_table_create_iamk_banner_contact.php
+1.0.6:
+    - 'Created table iamk_banner_about'
+    - builder_table_create_iamk_banner_about.php

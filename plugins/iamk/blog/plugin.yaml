@@ -1,0 +1,11 @@
+plugin:
+    name: 'iamk.blog::lang.plugin.name'
+    description: 'iamk.blog::lang.plugin.description'
+    author: iamk
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Блог
+        url: iamk/blog/blog
+        icon: icon-newspaper-o

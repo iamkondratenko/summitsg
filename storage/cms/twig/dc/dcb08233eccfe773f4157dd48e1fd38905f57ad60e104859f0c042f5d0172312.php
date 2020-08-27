@@ -35,7 +35,9 @@ class __TwigTemplate_42d11693a1463215376f32ffb821eb85238a5ba23500e95e5b133c4daa7
         $macros = $this->macros;
         // line 1
         $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("/site/services"        , $context['__cms_partial_params']        , true        );
+        $context['__cms_partial_params']['serives_title'] = "Услуги"        ;
+        $context['__cms_partial_params']['post_per_page'] = 24        ;
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("/services/services"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
     }
 
@@ -56,6 +58,6 @@ class __TwigTemplate_42d11693a1463215376f32ffb821eb85238a5ba23500e95e5b133c4daa7
 
     public function getSourceContext()
     {
-        return new Source("{% partial \"/site/services\" %}", "/Users/alexkondratenko/git/summitsg/themes/ssg/pages/services.htm", "");
+        return new Source("{% partial \"/services/services\" serives_title='Услуги' post_per_page=24  %}", "/Users/alexkondratenko/git/summitsg/themes/ssg/pages/services.htm", "");
     }
 }

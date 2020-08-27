@@ -1,0 +1,10 @@
+name: Services
+form: $/iamk/services/models/services/fields.yaml
+modelClass: Iamk\Services\Models\Services
+defaultRedirect: iamk/services/services
+create:
+    redirect: 'iamk/services/services/update/:id'
+    redirectClose: iamk/services/services
+update:
+    redirect: iamk/services/services
+    redirectClose: iamk/services/services

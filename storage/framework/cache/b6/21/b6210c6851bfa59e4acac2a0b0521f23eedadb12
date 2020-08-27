@@ -1,5 +1,5 @@
-1598299250a:1:{s:16:"/site/footer.htm";a:5:{s:8:"fileName";s:16:"/site/footer.htm";s:7:"content";s:11708:"<footer id="App-Footer">
-	<div class="main-header">
+1598509181a:1:{s:16:"/site/footer.htm";a:5:{s:8:"fileName";s:16:"/site/footer.htm";s:7:"content";s:11718:"<footer id="App-Footer">
+	<div class="main-header --desktop">
         <div class="main-header__content">
             <div class="main-header__logo-holder">
                 <div class="main-header__logo">
@@ -36,8 +36,8 @@
             </div>
         </div>
     </div>
-</footer>";s:5:"mtime";i:1598298647;s:6:"markup";s:11708:"<footer id="App-Footer">
-	<div class="main-header">
+</footer>";s:5:"mtime";i:1598482129;s:6:"markup";s:11718:"<footer id="App-Footer">
+	<div class="main-header --desktop">
         <div class="main-header__content">
             <div class="main-header__logo-holder">
                 <div class="main-header__logo">

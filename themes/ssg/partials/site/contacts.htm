@@ -1,0 +1,51 @@
+[builderList contactInfo]
+modelClass = "Iamk\Banner\Models\Contacts"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "id"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[viewBag]
+==
+{% set records = contactInfo.records %}
+{% set displayColumn = contactInfo.displayColumn %}
+{% set noRecordsMessage = contactInfo.noRecordsMessage %}
+{% set detailsPage = contactInfo.detailsPage %}
+{% set detailsKeyColumn = contactInfo.detailsKeyColumn %}
+{% set detailsUrlParameter = contactInfo.detailsUrlParameter %}
+
+    {% for record in records %}
+            {# Use spaceless tag to remove spaces inside the A tag. #}
+            {% spaceless %}
+				<section class="section">
+					<div class="block-title">
+						<h2 class="section-title">{{ record.title }}</h2>
+						<div class="block-line"></div>
+					</div>
+
+					<p class="adv-text">{{ record.text }}</p>
+
+					<div class="contact">
+						<div class="contact-items">
+
+							{% for contact_item in record.bullets %}
+							<div class="contact-item">
+								<div class="contact-icon"><img src="{{ contact_item.icon|media }}" alt=""></div>
+								<div class="contact-text">{{ contact_item.contact_info }}</div>
+							</div>
+							{% endfor %}
+						</div>
+						<div class="contact-map">
+							{{ record.map|raw }}
+						</div>
+					</div>
+				</section>
+            {% endspaceless %}
+    {% else %}
+        <li class="no-data">{{ noRecordsMessage }}</li>
+    {% endfor %}
+
+

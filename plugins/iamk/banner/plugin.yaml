@@ -6,6 +6,23 @@ plugin:
     homepage: ''
 navigation:
     main-menu-item:
-        label: Баннер
+        label: 'Главная страница'
         url: iamk/banner/banner
-        icon: icon-picture-o
+        icon: icon-home
+        sideMenu:
+            side-menu-item:
+                label: Баннер
+                url: iamk/banner/banner
+                icon: icon-picture-o
+            side-menu-item2:
+                label: Преимущества
+                url: iamk/banner/bullets
+                icon: icon-bullseye
+            side-menu-item3:
+                label: Контакты
+                url: iamk/banner/contacts
+                icon: icon-map-marker
+            side-menu-item4:
+                label: 'О нас'
+                url: iamk/banner/about
+                icon: icon-bookmark
